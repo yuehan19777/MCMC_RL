@@ -1,0 +1,1794 @@
+[
+  {
+    "round": 0,
+    "acceptance": 0.130859375,
+    "critic_objective": 4.5600791098320315,
+    "galerkin_residual": 0.02567304271482596,
+    "critic_coefficient_norm": 11.819389256245422,
+    "dirichlet_condition": 122.94570351683745,
+    "gradient_norm": 0.05628195413438017,
+    "reward_scale": 286.45690243485774,
+    "proposal_scale": [
+      2.9266392081729644,
+      2.6845401898346632
+    ]
+  },
+  {
+    "round": 1,
+    "acceptance": 0.10546875,
+    "critic_objective": 18.599568908596492,
+    "galerkin_residual": 0.045556843712342504,
+    "critic_coefficient_norm": 31.395637843702772,
+    "dirichlet_condition": 224.5784341133916,
+    "gradient_norm": 0.06448510827612267,
+    "reward_scale": 2624.7440407166996,
+    "proposal_scale": [
+      2.949948422366318,
+      2.6683976155269375
+    ]
+  },
+  {
+    "round": 2,
+    "acceptance": 0.12109375,
+    "critic_objective": 30.314172941645985,
+    "galerkin_residual": 0.01657216787940496,
+    "critic_coefficient_norm": 20.52184488494706,
+    "dirichlet_condition": 81.14734350983673,
+    "gradient_norm": 0.06865163260356674,
+    "reward_scale": 1217.8858907948656,
+    "proposal_scale": [
+      2.972145176659637,
+      2.6587477586986603
+    ]
+  },
+  {
+    "round": 3,
+    "acceptance": 0.125,
+    "critic_objective": 38.203718307509064,
+    "galerkin_residual": 0.021950180879851167,
+    "critic_coefficient_norm": 29.53884156349897,
+    "dirichlet_condition": 82.33326415913801,
+    "gradient_norm": 0.11163985016360824,
+    "reward_scale": 1216.9055747454245,
+    "proposal_scale": [
+      2.99148621033762,
+      2.656617658741181
+    ]
+  },
+  {
+    "round": 4,
+    "acceptance": 0.1328125,
+    "critic_objective": 116.54685356116335,
+    "galerkin_residual": 0.05106937689671965,
+    "critic_coefficient_norm": 75.33789073383562,
+    "dirichlet_condition": 111.82643621352734,
+    "gradient_norm": 0.04110501496453933,
+    "reward_scale": 8053.3540681239265,
+    "proposal_scale": [
+      3.0002523792010796,
+      2.6559145267006645
+    ]
+  },
+  {
+    "round": 5,
+    "acceptance": 0.154296875,
+    "critic_objective": 8.963387832277375,
+    "galerkin_residual": 0.014906233017969957,
+    "critic_coefficient_norm": 13.381686959283774,
+    "dirichlet_condition": 161.22632678201632,
+    "gradient_norm": 0.029693374786700314,
+    "reward_scale": 283.707470529007,
+    "proposal_scale": [
+      3.001206219167558,
+      2.6511884558449847
+    ]
+  },
+  {
+    "round": 6,
+    "acceptance": 0.1328125,
+    "critic_objective": 82.73094130174957,
+    "galerkin_residual": 0.02407788110029151,
+    "critic_coefficient_norm": 47.468170403148186,
+    "dirichlet_condition": 98.25277647911382,
+    "gradient_norm": 0.0045320654431419685,
+    "reward_scale": 7175.620076082362,
+    "proposal_scale": [
+      3.001141011747674,
+      2.6462795951884672
+    ]
+  },
+  {
+    "round": 7,
+    "acceptance": 0.15234375,
+    "critic_objective": 4.192639841555185,
+    "galerkin_residual": 0.020602976681513053,
+    "critic_coefficient_norm": 9.046883189760187,
+    "dirichlet_condition": 83.05503479448375,
+    "gradient_norm": 0.07695388007945649,
+    "reward_scale": 158.82077694089838,
+    "proposal_scale": [
+      3.0029295965436713,
+      2.641452163140856
+    ]
+  },
+  {
+    "round": 8,
+    "acceptance": 0.14453125,
+    "critic_objective": 2.360058155544785,
+    "galerkin_residual": 0.028833104885669224,
+    "critic_coefficient_norm": 8.903384610394895,
+    "dirichlet_condition": 79.8921585573011,
+    "gradient_norm": 0.019739869348966602,
+    "reward_scale": 312.8489773954085,
+    "proposal_scale": [
+      3.0057534782515196,
+      2.6349395509717763
+    ]
+  },
+  {
+    "round": 9,
+    "acceptance": 0.1875,
+    "critic_objective": 28.43333164073878,
+    "galerkin_residual": 0.05694418143985085,
+    "critic_coefficient_norm": 37.35703767750253,
+    "dirichlet_condition": 107.48732060499793,
+    "gradient_norm": 0.2651611879252936,
+    "reward_scale": 3410.5316981082433,
+    "proposal_scale": [
+      3.017695401093936,
+      2.6402303430211864
+    ]
+  },
+  {
+    "round": 10,
+    "acceptance": 0.12890625,
+    "critic_objective": 5.110595973854181,
+    "galerkin_residual": 0.015933113606754874,
+    "critic_coefficient_norm": 8.606493683905914,
+    "dirichlet_condition": 96.76956587689617,
+    "gradient_norm": 0.13814556755959184,
+    "reward_scale": 92.98527756467729,
+    "proposal_scale": [
+      3.0276834093445126,
+      2.6404179165537394
+    ]
+  },
+  {
+    "round": 11,
+    "acceptance": 0.173828125,
+    "critic_objective": 9.34226979230288,
+    "galerkin_residual": 0.01640537480444737,
+    "critic_coefficient_norm": 14.587410918086357,
+    "dirichlet_condition": 188.02822044656088,
+    "gradient_norm": 0.04781631879653565,
+    "reward_scale": 404.6634946326794,
+    "proposal_scale": [
+      3.0365487374462963,
+      2.642893788978429
+    ]
+  },
+  {
+    "round": 12,
+    "acceptance": 0.162109375,
+    "critic_objective": 5.548100658360706,
+    "galerkin_residual": 0.017650957444281853,
+    "critic_coefficient_norm": 10.196604219150467,
+    "dirichlet_condition": 105.7321219612328,
+    "gradient_norm": 0.1016988049646792,
+    "reward_scale": 117.8053134789894,
+    "proposal_scale": [
+      3.0396720855519317,
+      2.6388753144477786
+    ]
+  },
+  {
+    "round": 13,
+    "acceptance": 0.154296875,
+    "critic_objective": 7.7160700537640015,
+    "galerkin_residual": 0.02380324580104072,
+    "critic_coefficient_norm": 13.771260325708294,
+    "dirichlet_condition": 95.07005402799014,
+    "gradient_norm": 0.055511240465522506,
+    "reward_scale": 421.5016373332005,
+    "proposal_scale": [
+      3.0407852693894744,
+      2.6326123563914146
+    ]
+  },
+  {
+    "round": 14,
+    "acceptance": 0.146484375,
+    "critic_objective": 6.411433041522058,
+    "galerkin_residual": 0.022883172189259837,
+    "critic_coefficient_norm": 12.846210814264142,
+    "dirichlet_condition": 92.86439221309817,
+    "gradient_norm": 0.11548684024670423,
+    "reward_scale": 163.00958529397698,
+    "proposal_scale": [
+      3.0391516031812165,
+      2.6221078115866323
+    ]
+  },
+  {
+    "round": 15,
+    "acceptance": 0.140625,
+    "critic_objective": 4.370222482785355,
+    "galerkin_residual": 0.0203071705686167,
+    "critic_coefficient_norm": 8.651936150942122,
+    "dirichlet_condition": 81.18099542652995,
+    "gradient_norm": 0.03991596196299987,
+    "reward_scale": 362.9006533485813,
+    "proposal_scale": [
+      3.037520966951831,
+      2.612016391428467
+    ]
+  },
+  {
+    "round": 16,
+    "acceptance": 0.154296875,
+    "critic_objective": 9.683223515750413,
+    "galerkin_residual": 0.012513128340719652,
+    "critic_coefficient_norm": 11.74192378755577,
+    "dirichlet_condition": 173.0674986513555,
+    "gradient_norm": 0.09011747417734102,
+    "reward_scale": 225.9984841627637,
+    "proposal_scale": [
+      3.0332852282678693,
+      2.5987835747946035
+    ]
+  },
+  {
+    "round": 17,
+    "acceptance": 0.154296875,
+    "critic_objective": 8.47075782746012,
+    "galerkin_residual": 0.02075424519521961,
+    "critic_coefficient_norm": 13.496997856219302,
+    "dirichlet_condition": 120.35804287924272,
+    "gradient_norm": 0.4964052788573008,
+    "reward_scale": 455.04509742228464,
+    "proposal_scale": [
+      3.0299201704990453,
+      2.606504772189618
+    ]
+  },
+  {
+    "round": 18,
+    "acceptance": 0.142578125,
+    "critic_objective": 3.760320636744387,
+    "galerkin_residual": 0.012091337432544908,
+    "critic_coefficient_norm": 7.002757454920613,
+    "dirichlet_condition": 168.32167721982307,
+    "gradient_norm": 0.07072556755856696,
+    "reward_scale": 90.24286293794714,
+    "proposal_scale": [
+      3.024196618348353,
+      2.6132946346419734
+    ]
+  },
+  {
+    "round": 19,
+    "acceptance": 0.13671875,
+    "critic_objective": 14.508702911995034,
+    "galerkin_residual": 0.013342345840282144,
+    "critic_coefficient_norm": 13.462521272375872,
+    "dirichlet_condition": 112.01361392727833,
+    "gradient_norm": 0.02627608639060453,
+    "reward_scale": 589.3872830068044,
+    "proposal_scale": [
+      3.0185918198893984,
+      2.619559081378282
+    ]
+  },
+  {
+    "round": 20,
+    "acceptance": 0.12109375,
+    "critic_objective": 11.251571736897912,
+    "galerkin_residual": 0.015765905094657397,
+    "critic_coefficient_norm": 13.688132182472145,
+    "dirichlet_condition": 126.9082419027584,
+    "gradient_norm": 0.06155005306918672,
+    "reward_scale": 526.3397896450028,
+    "proposal_scale": [
+      3.0125677895401877,
+      2.6246946522052665
+    ]
+  },
+  {
+    "round": 21,
+    "acceptance": 0.140625,
+    "critic_objective": 10.942336885288093,
+    "galerkin_residual": 0.01314838670782787,
+    "critic_coefficient_norm": 13.969907223450855,
+    "dirichlet_condition": 207.4195627290552,
+    "gradient_norm": 0.025117315745949446,
+    "reward_scale": 529.9755649462069,
+    "proposal_scale": [
+      3.0065922374018736,
+      2.629278662349947
+    ]
+  },
+  {
+    "round": 22,
+    "acceptance": 0.142578125,
+    "critic_objective": 41.97168159585897,
+    "galerkin_residual": 0.013856175701549112,
+    "critic_coefficient_norm": 25.84689014210215,
+    "dirichlet_condition": 254.42004850529574,
+    "gradient_norm": 0.17042120788142268,
+    "reward_scale": 2340.5429217564256,
+    "proposal_scale": [
+      3.0012129298354773,
+      2.6355419794328028
+    ]
+  },
+  {
+    "round": 23,
+    "acceptance": 0.130859375,
+    "critic_objective": 4.2575962067292625,
+    "galerkin_residual": 0.026587799450445437,
+    "critic_coefficient_norm": 11.69274813024846,
+    "dirichlet_condition": 105.83434400170324,
+    "gradient_norm": 0.04921396037307398,
+    "reward_scale": 263.46964721351867,
+    "proposal_scale": [
+      2.994921375140731,
+      2.6414627440771383
+    ]
+  },
+  {
+    "round": 24,
+    "acceptance": 0.119140625,
+    "critic_objective": 25.693640764311542,
+    "galerkin_residual": 0.01617617720908523,
+    "critic_coefficient_norm": 20.274248345239492,
+    "dirichlet_condition": 114.76323849875574,
+    "gradient_norm": 0.07975010062352006,
+    "reward_scale": 975.6344695057631,
+    "proposal_scale": [
+      2.9880147279030584,
+      2.6476936385377488
+    ]
+  },
+  {
+    "round": 25,
+    "acceptance": 0.15625,
+    "critic_objective": 6.881273562332209,
+    "galerkin_residual": 0.015516427405739582,
+    "critic_coefficient_norm": 12.272952566171018,
+    "dirichlet_condition": 215.33866679849615,
+    "gradient_norm": 0.23664636648168608,
+    "reward_scale": 276.58398734758566,
+    "proposal_scale": [
+      2.9759211143354505,
+      2.6544850085691567
+    ]
+  },
+  {
+    "round": 26,
+    "acceptance": 0.130859375,
+    "critic_objective": 7.901245382775635,
+    "galerkin_residual": 0.025663301015450262,
+    "critic_coefficient_norm": 16.415357316958882,
+    "dirichlet_condition": 128.18778809859998,
+    "gradient_norm": 0.028858279345202437,
+    "reward_scale": 661.3159399177748,
+    "proposal_scale": [
+      2.963654007637532,
+      2.6605225428026538
+    ]
+  },
+  {
+    "round": 27,
+    "acceptance": 0.162109375,
+    "critic_objective": 4.927183325956895,
+    "galerkin_residual": 0.009845759805414104,
+    "critic_coefficient_norm": 7.3391519223398465,
+    "dirichlet_condition": 217.45924250042228,
+    "gradient_norm": 0.11880805472215782,
+    "reward_scale": 109.18486424745436,
+    "proposal_scale": [
+      2.9486013272277374,
+      2.664625835510085
+    ]
+  },
+  {
+    "round": 28,
+    "acceptance": 0.146484375,
+    "critic_objective": 3.894020232400605,
+    "galerkin_residual": 0.015237681240190457,
+    "critic_coefficient_norm": 7.864500647821922,
+    "dirichlet_condition": 122.02630614722602,
+    "gradient_norm": 0.06556988432132366,
+    "reward_scale": 126.93731557842403,
+    "proposal_scale": [
+      2.932560275891282,
+      2.6680995804981356
+    ]
+  },
+  {
+    "round": 29,
+    "acceptance": 0.201171875,
+    "critic_objective": 12.36028736998789,
+    "galerkin_residual": 0.011518256498408893,
+    "critic_coefficient_norm": 13.064466296477333,
+    "dirichlet_condition": 209.9111486680836,
+    "gradient_norm": 0.040427289920371715,
+    "reward_scale": 407.0177400491593,
+    "proposal_scale": [
+      2.916631736646935,
+      2.670776288857785
+    ]
+  },
+  {
+    "round": 30,
+    "acceptance": 0.16015625,
+    "critic_objective": 46.342329672609644,
+    "galerkin_residual": 0.02224408551382265,
+    "critic_coefficient_norm": 39.82296409919653,
+    "dirichlet_condition": 246.8530983231248,
+    "gradient_norm": 0.1091205723737633,
+    "reward_scale": 2965.9796309182398,
+    "proposal_scale": [
+      2.901714544127463,
+      2.6748607335515775
+    ]
+  },
+  {
+    "round": 31,
+    "acceptance": 0.162109375,
+    "critic_objective": 10.695932147888602,
+    "galerkin_residual": 0.022541532753796854,
+    "critic_coefficient_norm": 20.7199556930426,
+    "dirichlet_condition": 259.99232443052443,
+    "gradient_norm": 0.05801155840792052,
+    "reward_scale": 315.96351187899364,
+    "proposal_scale": [
+      2.8875662461401035,
+      2.67862396303705
+    ]
+  },
+  {
+    "round": 32,
+    "acceptance": 0.17578125,
+    "critic_objective": 8.959409290184293,
+    "galerkin_residual": 0.01268627019905797,
+    "critic_coefficient_norm": 11.473015238966113,
+    "dirichlet_condition": 305.7553936645271,
+    "gradient_norm": 0.08774321618008103,
+    "reward_scale": 232.51494264791054,
+    "proposal_scale": [
+      2.872045119772885,
+      2.6808761100553786
+    ]
+  },
+  {
+    "round": 33,
+    "acceptance": 0.13671875,
+    "critic_objective": 5.122212275241845,
+    "galerkin_residual": 0.02016627574493526,
+    "critic_coefficient_norm": 12.249259652708455,
+    "dirichlet_condition": 161.17082162091498,
+    "gradient_norm": 0.017989452668672024,
+    "reward_scale": 502.099476795814,
+    "proposal_scale": [
+      2.8571005341416136,
+      2.682650194107428
+    ]
+  },
+  {
+    "round": 34,
+    "acceptance": 0.115234375,
+    "critic_objective": 16.698546208086633,
+    "galerkin_residual": 0.013561806478940735,
+    "critic_coefficient_norm": 19.122829708804336,
+    "dirichlet_condition": 394.235312883963,
+    "gradient_norm": 0.1265762397076827,
+    "reward_scale": 784.219198336101,
+    "proposal_scale": [
+      2.8430133273093148,
+      2.6863705364919386
+    ]
+  },
+  {
+    "round": 35,
+    "acceptance": 0.177734375,
+    "critic_objective": 6.920337753072816,
+    "galerkin_residual": 0.01643420497691389,
+    "critic_coefficient_norm": 12.208735744733866,
+    "dirichlet_condition": 156.58800506300372,
+    "gradient_norm": 0.12189006887186303,
+    "reward_scale": 264.29820953345273,
+    "proposal_scale": [
+      2.8275770411211245,
+      2.6900567687714045
+    ]
+  },
+  {
+    "round": 36,
+    "acceptance": 0.158203125,
+    "critic_objective": 6.295808562332104,
+    "galerkin_residual": 0.012350120233172014,
+    "critic_coefficient_norm": 9.420495824416529,
+    "dirichlet_condition": 225.3864188965852,
+    "gradient_norm": 0.0360071248623025,
+    "reward_scale": 229.4898626594099,
+    "proposal_scale": [
+      2.812130105245571,
+      2.69297899772723
+    ]
+  },
+  {
+    "round": 37,
+    "acceptance": 0.177734375,
+    "critic_objective": 6.745978609667416,
+    "galerkin_residual": 0.009109591748207099,
+    "critic_coefficient_norm": 8.511615348322513,
+    "dirichlet_condition": 234.75458853812972,
+    "gradient_norm": 0.18318355458891922,
+    "reward_scale": 173.05805950238903,
+    "proposal_scale": [
+      2.805239889217088,
+      2.6978539642122787
+    ]
+  },
+  {
+    "round": 38,
+    "acceptance": 0.1640625,
+    "critic_objective": 8.224089224312623,
+    "galerkin_residual": 0.020652184862542736,
+    "critic_coefficient_norm": 16.83575099551062,
+    "dirichlet_condition": 197.37008268840327,
+    "gradient_norm": 0.033375696346893795,
+    "reward_scale": 191.40675330954662,
+    "proposal_scale": [
+      2.7981759443331913,
+      2.702233284424884
+    ]
+  },
+  {
+    "round": 39,
+    "acceptance": 0.15234375,
+    "critic_objective": 5.330337486238314,
+    "galerkin_residual": 0.008960861626681192,
+    "critic_coefficient_norm": 8.172307123731716,
+    "dirichlet_condition": 312.4745984179494,
+    "gradient_norm": 0.07806616340230571,
+    "reward_scale": 92.34871192030758,
+    "proposal_scale": [
+      2.7920629976294813,
+      2.705511376308457
+    ]
+  },
+  {
+    "round": 40,
+    "acceptance": 0.158203125,
+    "critic_objective": 11.47763777036548,
+    "galerkin_residual": 0.01311381497751523,
+    "critic_coefficient_norm": 14.459984725074742,
+    "dirichlet_condition": 184.65375865019053,
+    "gradient_norm": 0.0573460552710705,
+    "reward_scale": 657.605387969907,
+    "proposal_scale": [
+      2.785040545259582,
+      2.7077174750379256
+    ]
+  },
+  {
+    "round": 41,
+    "acceptance": 0.1640625,
+    "critic_objective": 3.3415162648557795,
+    "galerkin_residual": 0.011026313554327668,
+    "critic_coefficient_norm": 7.374820496194613,
+    "dirichlet_condition": 409.65808016287804,
+    "gradient_norm": 0.06537346650143555,
+    "reward_scale": 86.4343875325082,
+    "proposal_scale": [
+      2.776216761350745,
+      2.708408753282191
+    ]
+  },
+  {
+    "round": 42,
+    "acceptance": 0.115234375,
+    "critic_objective": 3.26669955860364,
+    "galerkin_residual": 0.024067018266567236,
+    "critic_coefficient_norm": 12.026018109979027,
+    "dirichlet_condition": 187.59288349834839,
+    "gradient_norm": 0.010442182869810548,
+    "reward_scale": 311.70635325502025,
+    "proposal_scale": [
+      2.7680269733246368,
+      2.708963527302801
+    ]
+  },
+  {
+    "round": 43,
+    "acceptance": 0.203125,
+    "critic_objective": 3.4643809760508075,
+    "galerkin_residual": 0.01226618494470929,
+    "critic_coefficient_norm": 6.602834198684922,
+    "dirichlet_condition": 179.01533463364873,
+    "gradient_norm": 0.10373837020178937,
+    "reward_scale": 67.85009009079998,
+    "proposal_scale": [
+      2.7573354541536554,
+      2.7081798582552787
+    ]
+  },
+  {
+    "round": 44,
+    "acceptance": 0.162109375,
+    "critic_objective": 29.957217684284565,
+    "galerkin_residual": 0.014040250626881613,
+    "critic_coefficient_norm": 30.11013496947833,
+    "dirichlet_condition": 345.43974687229326,
+    "gradient_norm": 0.03182267334060513,
+    "reward_scale": 994.7073026921346,
+    "proposal_scale": [
+      2.7476678439604045,
+      2.707799267433876
+    ]
+  },
+  {
+    "round": 45,
+    "acceptance": 0.138671875,
+    "critic_objective": 12.43900607675564,
+    "galerkin_residual": 0.0230628416536701,
+    "critic_coefficient_norm": 18.9095628873824,
+    "dirichlet_condition": 207.49205011642115,
+    "gradient_norm": 0.029363116667603256,
+    "reward_scale": 567.7033563799948,
+    "proposal_scale": [
+      2.738436069345136,
+      2.7072966904948923
+    ]
+  },
+  {
+    "round": 46,
+    "acceptance": 0.14453125,
+    "critic_objective": 9.505297860402731,
+    "galerkin_residual": 0.01042845382021105,
+    "critic_coefficient_norm": 10.753099372079165,
+    "dirichlet_condition": 225.6027346707995,
+    "gradient_norm": 0.07920254604001739,
+    "reward_scale": 263.17556971284523,
+    "proposal_scale": [
+      2.7294870660730033,
+      2.7067383939182963
+    ]
+  },
+  {
+    "round": 47,
+    "acceptance": 0.15234375,
+    "critic_objective": 5.459722359970502,
+    "galerkin_residual": 0.011731753138961375,
+    "critic_coefficient_norm": 8.196578870163222,
+    "dirichlet_condition": 168.99290670233034,
+    "gradient_norm": 0.05947730709319127,
+    "reward_scale": 113.42878058230465,
+    "proposal_scale": [
+      2.7184744638247924,
+      2.7054014456709243
+    ]
+  },
+  {
+    "round": 48,
+    "acceptance": 0.142578125,
+    "critic_objective": 5.064694761617165,
+    "galerkin_residual": 0.022501338497976277,
+    "critic_coefficient_norm": 13.671269923959006,
+    "dirichlet_condition": 162.06580628887198,
+    "gradient_norm": 0.05854899250467637,
+    "reward_scale": 206.69154743194593,
+    "proposal_scale": [
+      2.7067333513652723,
+      2.7029711984744655
+    ]
+  },
+  {
+    "round": 49,
+    "acceptance": 0.203125,
+    "critic_objective": 5.781238276260435,
+    "galerkin_residual": 0.014821450490930454,
+    "critic_coefficient_norm": 11.74718105832766,
+    "dirichlet_condition": 221.52219545546026,
+    "gradient_norm": 0.06757437415684409,
+    "reward_scale": 232.62234838014913,
+    "proposal_scale": [
+      2.6938098423809245,
+      2.699151749831795
+    ]
+  },
+  {
+    "round": 50,
+    "acceptance": 0.146484375,
+    "critic_objective": 4.090300117157638,
+    "galerkin_residual": 0.0168551005036967,
+    "critic_coefficient_norm": 10.448227448455887,
+    "dirichlet_condition": 182.57492373314528,
+    "gradient_norm": 0.03750380357628578,
+    "reward_scale": 231.1120134278391,
+    "proposal_scale": [
+      2.681390314400159,
+      2.694928406573261
+    ]
+  },
+  {
+    "round": 51,
+    "acceptance": 0.16015625,
+    "critic_objective": 4.851184337703062,
+    "galerkin_residual": 0.008960717028774354,
+    "critic_coefficient_norm": 7.546602218878529,
+    "dirichlet_condition": 298.7340668931991,
+    "gradient_norm": 0.0746374537092161,
+    "reward_scale": 83.89435366049044,
+    "proposal_scale": [
+      2.667856667513625,
+      2.6896401956263114
+    ]
+  },
+  {
+    "round": 52,
+    "acceptance": 0.162109375,
+    "critic_objective": 71.79979367549586,
+    "galerkin_residual": 0.007661677128914723,
+    "critic_coefficient_norm": 32.44678924567319,
+    "dirichlet_condition": 447.97933148675173,
+    "gradient_norm": 0.05850180761729327,
+    "reward_scale": 660.0148938426839,
+    "proposal_scale": [
+      2.6542843320577387,
+      2.6837211164788894
+    ]
+  },
+  {
+    "round": 53,
+    "acceptance": 0.142578125,
+    "critic_objective": 299.9731697749276,
+    "galerkin_residual": 0.020216301341259103,
+    "critic_coefficient_norm": 99.22614893632314,
+    "dirichlet_condition": 360.4070679343976,
+    "gradient_norm": 0.011227678206581982,
+    "reward_scale": 13352.388060507858,
+    "proposal_scale": [
+      2.6417618412644646,
+      2.6782730574027838
+    ]
+  },
+  {
+    "round": 54,
+    "acceptance": 0.18359375,
+    "critic_objective": 578.996461871616,
+    "galerkin_residual": 0.025793457301972904,
+    "critic_coefficient_norm": 125.58883836613245,
+    "dirichlet_condition": 198.89936240842442,
+    "gradient_norm": 0.45142409656692895,
+    "reward_scale": 26518.913553768427,
+    "proposal_scale": [
+      2.629133605901467,
+      2.6825978586482497
+    ]
+  },
+  {
+    "round": 55,
+    "acceptance": 0.162109375,
+    "critic_objective": 473.07246962267584,
+    "galerkin_residual": 0.027663093423221864,
+    "critic_coefficient_norm": 130.32943322898126,
+    "dirichlet_condition": 312.9761983502905,
+    "gradient_norm": 0.1638354915817568,
+    "reward_scale": 16330.655592301286,
+    "proposal_scale": [
+      2.621796574731644,
+      2.688270972043667
+    ]
+  },
+  {
+    "round": 56,
+    "acceptance": 0.15234375,
+    "critic_objective": 630.9767502571613,
+    "galerkin_residual": 0.030156992956582095,
+    "critic_coefficient_norm": 148.75334419805407,
+    "dirichlet_condition": 289.5132890312895,
+    "gradient_norm": 0.06022501573523048,
+    "reward_scale": 24695.363373249253,
+    "proposal_scale": [
+      2.6161506502837866,
+      2.693170364450328
+    ]
+  },
+  {
+    "round": 57,
+    "acceptance": 0.171875,
+    "critic_objective": 136.96917571428423,
+    "galerkin_residual": 0.015178013331082305,
+    "critic_coefficient_norm": 58.962234509709766,
+    "dirichlet_condition": 305.2304581554031,
+    "gradient_norm": 0.007537022760143579,
+    "reward_scale": 2883.1269376479277,
+    "proposal_scale": [
+      2.610987987826194,
+      2.6976120376447996
+    ]
+  },
+  {
+    "round": 58,
+    "acceptance": 0.169921875,
+    "critic_objective": 78.26321564387409,
+    "galerkin_residual": 0.022645713842137875,
+    "critic_coefficient_norm": 48.94041320231638,
+    "dirichlet_condition": 681.1498192841503,
+    "gradient_norm": 0.05892235177452876,
+    "reward_scale": 1601.226922917327,
+    "proposal_scale": [
+      2.607707300897897,
+      2.701903271591552
+    ]
+  },
+  {
+    "round": 59,
+    "acceptance": 0.1484375,
+    "critic_objective": 20.74087015024157,
+    "galerkin_residual": 0.005478052758324309,
+    "critic_coefficient_norm": 11.586554592923623,
+    "dirichlet_condition": 427.14161525319884,
+    "gradient_norm": 0.17834880781822998,
+    "reward_scale": 1038.4152936810567,
+    "proposal_scale": [
+      2.611288296591486,
+      2.706663548306119
+    ]
+  },
+  {
+    "round": 60,
+    "acceptance": 0.146484375,
+    "critic_objective": 5.8857047234677,
+    "galerkin_residual": 0.011367565906776114,
+    "critic_coefficient_norm": 10.402677339972781,
+    "dirichlet_condition": 324.08706338832474,
+    "gradient_norm": 0.16479780428208277,
+    "reward_scale": 279.88091865652547,
+    "proposal_scale": [
+      2.616584482690322,
+      2.7137766907589143
+    ]
+  },
+  {
+    "round": 61,
+    "acceptance": 0.140625,
+    "critic_objective": 8.347914335377714,
+    "galerkin_residual": 0.009387290542745489,
+    "critic_coefficient_norm": 9.01502366959261,
+    "dirichlet_condition": 194.3337672940942,
+    "gradient_norm": 0.11593085898057516,
+    "reward_scale": 338.99854111929204,
+    "proposal_scale": [
+      2.6233600322932844,
+      2.721716483834503
+    ]
+  },
+  {
+    "round": 62,
+    "acceptance": 0.193359375,
+    "critic_objective": 4.308812009730899,
+    "galerkin_residual": 0.011101067695956592,
+    "critic_coefficient_norm": 8.882696985116052,
+    "dirichlet_condition": 453.97026221556456,
+    "gradient_norm": 0.2902912766334053,
+    "reward_scale": 95.3188371574957,
+    "proposal_scale": [
+      2.633949861638658,
+      2.732078201973502
+    ]
+  },
+  {
+    "round": 63,
+    "acceptance": 0.12109375,
+    "critic_objective": 6.887851875787385,
+    "galerkin_residual": 0.02202457058740528,
+    "critic_coefficient_norm": 16.4980173937943,
+    "dirichlet_condition": 167.26837093602722,
+    "gradient_norm": 0.0463888183460203,
+    "reward_scale": 352.4516801580645,
+    "proposal_scale": [
+      2.6425457990294943,
+      2.740920357689233
+    ]
+  },
+  {
+    "round": 64,
+    "acceptance": 0.130859375,
+    "critic_objective": 10.223481839763648,
+    "galerkin_residual": 0.013161301721464149,
+    "critic_coefficient_norm": 11.68808987148068,
+    "dirichlet_condition": 153.32987355120616,
+    "gradient_norm": 0.13636435313072698,
+    "reward_scale": 939.971364857021,
+    "proposal_scale": [
+      2.652346256656643,
+      2.751804594337174
+    ]
+  },
+  {
+    "round": 65,
+    "acceptance": 0.138671875,
+    "critic_objective": 15.284100890548414,
+    "galerkin_residual": 0.013099319847362227,
+    "critic_coefficient_norm": 20.734839446593476,
+    "dirichlet_condition": 312.3993372582746,
+    "gradient_norm": 0.795996272755575,
+    "reward_scale": 832.3022679821285,
+    "proposal_scale": [
+      2.6586968274417195,
+      2.77168371327446
+    ]
+  },
+  {
+    "round": 66,
+    "acceptance": 0.150390625,
+    "critic_objective": 26.804978084046635,
+    "galerkin_residual": 0.016113309742096776,
+    "critic_coefficient_norm": 25.933194208940186,
+    "dirichlet_condition": 185.93251272476266,
+    "gradient_norm": 0.21228414097352108,
+    "reward_scale": 1644.5367808231606,
+    "proposal_scale": [
+      2.6651719722767737,
+      2.7926251933478947
+    ]
+  },
+  {
+    "round": 67,
+    "acceptance": 0.16796875,
+    "critic_objective": 59.27508339781528,
+    "galerkin_residual": 0.03327186439987952,
+    "critic_coefficient_norm": 54.846747945890236,
+    "dirichlet_condition": 331.4356269396022,
+    "gradient_norm": 0.02474558734673872,
+    "reward_scale": 11293.651395619525,
+    "proposal_scale": [
+      2.6711792831131,
+      2.8120381914082757
+    ]
+  },
+  {
+    "round": 68,
+    "acceptance": 0.1328125,
+    "critic_objective": 29.38262917806818,
+    "galerkin_residual": 0.013681091576549119,
+    "critic_coefficient_norm": 29.66477903998233,
+    "dirichlet_condition": 324.1470656442517,
+    "gradient_norm": 0.06378079565851395,
+    "reward_scale": 1183.6596497994337,
+    "proposal_scale": [
+      2.6774813754021136,
+      2.8302805938552003
+    ]
+  },
+  {
+    "round": 69,
+    "acceptance": 0.15234375,
+    "critic_objective": 40.16734226574758,
+    "galerkin_residual": 0.010015556626213404,
+    "critic_coefficient_norm": 27.691118547260064,
+    "dirichlet_condition": 398.0347349140916,
+    "gradient_norm": 0.024351769325439105,
+    "reward_scale": 2721.7394155522534,
+    "proposal_scale": [
+      2.6838494902111236,
+      2.8468246798147785
+    ]
+  },
+  {
+    "round": 70,
+    "acceptance": 0.189453125,
+    "critic_objective": 20.283369441643693,
+    "galerkin_residual": 0.00877002732837632,
+    "critic_coefficient_norm": 16.477773158220426,
+    "dirichlet_condition": 361.7940892504145,
+    "gradient_norm": 0.15145883825454276,
+    "reward_scale": 410.2440284705699,
+    "proposal_scale": [
+      2.6871540902966555,
+      2.863808133008117
+    ]
+  },
+  {
+    "round": 71,
+    "acceptance": 0.15625,
+    "critic_objective": 7.687724105657561,
+    "galerkin_residual": 0.011939059299277405,
+    "critic_coefficient_norm": 12.073875844120145,
+    "dirichlet_condition": 407.92256619082406,
+    "gradient_norm": 0.03884465430459742,
+    "reward_scale": 420.36104329601096,
+    "proposal_scale": [
+      2.688741678018232,
+      2.8786406752652
+    ]
+  },
+  {
+    "round": 72,
+    "acceptance": 0.16796875,
+    "critic_objective": 19.89628467013031,
+    "galerkin_residual": 0.014492542393695348,
+    "critic_coefficient_norm": 27.506012963480824,
+    "dirichlet_condition": 373.1001864103258,
+    "gradient_norm": 0.03478798396233277,
+    "reward_scale": 196.82519133651653,
+    "proposal_scale": [
+      2.688674027419605,
+      2.891687837979311
+    ]
+  },
+  {
+    "round": 73,
+    "acceptance": 0.123046875,
+    "critic_objective": 384.7134762797954,
+    "galerkin_residual": 0.03799605465032393,
+    "critic_coefficient_norm": 151.88411280068553,
+    "dirichlet_condition": 158.02089634011088,
+    "gradient_norm": 0.0055995087879936135,
+    "reward_scale": 41956.65782317515,
+    "proposal_scale": [
+      2.6883858194302066,
+      2.9034793478915755
+    ]
+  },
+  {
+    "round": 74,
+    "acceptance": 0.140625,
+    "critic_objective": 17.766441481571214,
+    "galerkin_residual": 0.007421022916767465,
+    "critic_coefficient_norm": 15.083186312308326,
+    "dirichlet_condition": 449.547124832817,
+    "gradient_norm": 0.14225677050588084,
+    "reward_scale": 833.0046200357218,
+    "proposal_scale": [
+      2.6863292895233326,
+      2.9164106299313692
+    ]
+  },
+  {
+    "round": 75,
+    "acceptance": 0.12109375,
+    "critic_objective": 3.543538619024873,
+    "galerkin_residual": 0.013530004796300878,
+    "critic_coefficient_norm": 9.38016956183112,
+    "dirichlet_condition": 307.3899512689188,
+    "gradient_norm": 0.1891238219233234,
+    "reward_scale": 133.77675754089245,
+    "proposal_scale": [
+      2.684504367594886,
+      2.930784228689368
+    ]
+  },
+  {
+    "round": 76,
+    "acceptance": 0.154296875,
+    "critic_objective": 7.128038540772466,
+    "galerkin_residual": 0.017749673286273682,
+    "critic_coefficient_norm": 17.213727625248616,
+    "dirichlet_condition": 358.5450932790055,
+    "gradient_norm": 0.015937361277547253,
+    "reward_scale": 1889.8637168224327,
+    "proposal_scale": [
+      2.6835288732935467,
+      2.943894096902026
+    ]
+  },
+  {
+    "round": 77,
+    "acceptance": 0.134765625,
+    "critic_objective": 9.027916802681348,
+    "galerkin_residual": 0.010766890270028293,
+    "critic_coefficient_norm": 11.294509293059885,
+    "dirichlet_condition": 243.6949724079569,
+    "gradient_norm": 0.07101713670758912,
+    "reward_scale": 532.3138566901193,
+    "proposal_scale": [
+      2.681210912275507,
+      2.956558877390125
+    ]
+  },
+  {
+    "round": 78,
+    "acceptance": 0.14453125,
+    "critic_objective": 48.22862844469819,
+    "galerkin_residual": 0.01613513018089805,
+    "critic_coefficient_norm": 39.69107764228382,
+    "dirichlet_condition": 326.0494145169299,
+    "gradient_norm": 0.0364714739450301,
+    "reward_scale": 6818.151502891392,
+    "proposal_scale": [
+      2.6801524031366983,
+      2.9684322901096745
+    ]
+  },
+  {
+    "round": 79,
+    "acceptance": 0.1484375,
+    "critic_objective": 19.78790824399849,
+    "galerkin_residual": 0.01235266214507659,
+    "critic_coefficient_norm": 24.93605698386738,
+    "dirichlet_condition": 431.8573641272629,
+    "gradient_norm": 0.010952883406946343,
+    "reward_scale": 1241.0354997415923,
+    "proposal_scale": [
+      2.6786850969892537,
+      2.979058097142542
+    ]
+  },
+  {
+    "round": 80,
+    "acceptance": 0.15625,
+    "critic_objective": 3.428325557941858,
+    "galerkin_residual": 0.010841838995153699,
+    "critic_coefficient_norm": 7.3483927799696485,
+    "dirichlet_condition": 263.5071769182961,
+    "gradient_norm": 0.07609390671149224,
+    "reward_scale": 96.72454136143591,
+    "proposal_scale": [
+      2.6754058807233534,
+      2.98894437763368
+    ]
+  },
+  {
+    "round": 81,
+    "acceptance": 0.1640625,
+    "critic_objective": 5.281269626662455,
+    "galerkin_residual": 0.012358901765894091,
+    "critic_coefficient_norm": 11.239554067075408,
+    "dirichlet_condition": 387.85977998692573,
+    "gradient_norm": 0.08178462023247356,
+    "reward_scale": 209.67249357253667,
+    "proposal_scale": [
+      2.669289985589968,
+      2.996677791616646
+    ]
+  },
+  {
+    "round": 82,
+    "acceptance": 0.1328125,
+    "critic_objective": 2.9649711473675664,
+    "galerkin_residual": 0.01741124899759614,
+    "critic_coefficient_norm": 7.811388134357467,
+    "dirichlet_condition": 189.49010096831867,
+    "gradient_norm": 0.05542462026615813,
+    "reward_scale": 173.573478225277,
+    "proposal_scale": [
+      2.6610748719129687,
+      3.0028970008596363
+    ]
+  },
+  {
+    "round": 83,
+    "acceptance": 0.171875,
+    "critic_objective": 3.3837170439394075,
+    "galerkin_residual": 0.014054500538983956,
+    "critic_coefficient_norm": 8.13262617314645,
+    "dirichlet_condition": 223.4664914074958,
+    "gradient_norm": 0.036399603783657065,
+    "reward_scale": 144.64176171109057,
+    "proposal_scale": [
+      2.6529392940786813,
+      3.007949731350969
+    ]
+  },
+  {
+    "round": 84,
+    "acceptance": 0.115234375,
+    "critic_objective": 19.990289080278927,
+    "galerkin_residual": 0.007224998895472644,
+    "critic_coefficient_norm": 22.32582991361638,
+    "dirichlet_condition": 1822.3323043876287,
+    "gradient_norm": 0.09384852709195164,
+    "reward_scale": 331.4108610652918,
+    "proposal_scale": [
+      2.6441138741376853,
+      3.012826009270662
+    ]
+  },
+  {
+    "round": 85,
+    "acceptance": 0.12890625,
+    "critic_objective": 5202.366021347223,
+    "galerkin_residual": 0.032428765414645136,
+    "critic_coefficient_norm": 471.9180484481883,
+    "dirichlet_condition": 178.93770868877994,
+    "gradient_norm": 0.08510055877776404,
+    "reward_scale": 1216502.8600658819,
+    "proposal_scale": [
+      2.6394078552193903,
+      3.018106427969778
+    ]
+  },
+  {
+    "round": 86,
+    "acceptance": 0.138671875,
+    "critic_objective": 4013.985959436135,
+    "galerkin_residual": 0.048210021254469666,
+    "critic_coefficient_norm": 692.6804202759147,
+    "dirichlet_condition": 277.02735760231997,
+    "gradient_norm": 0.06115652497248566,
+    "reward_scale": 365876.08924015774,
+    "proposal_scale": [
+      2.6355613409436502,
+      3.0239664001915254
+    ]
+  },
+  {
+    "round": 87,
+    "acceptance": 0.115234375,
+    "critic_objective": 127.87279986151985,
+    "galerkin_residual": 0.004691592469055031,
+    "critic_coefficient_norm": 58.87195639951226,
+    "dirichlet_condition": 2268.0763141358675,
+    "gradient_norm": 0.008996953570791595,
+    "reward_scale": 2751.0905207132178,
+    "proposal_scale": [
+      2.6317142761035717,
+      3.029168000152429
+    ]
+  },
+  {
+    "round": 88,
+    "acceptance": 0.126953125,
+    "critic_objective": 132.08320658719202,
+    "galerkin_residual": 0.008943943805348267,
+    "critic_coefficient_norm": 44.15297844616061,
+    "dirichlet_condition": 308.0508395821742,
+    "gradient_norm": 0.011606805066060225,
+    "reward_scale": 4438.034417113748,
+    "proposal_scale": [
+      2.62823185993629,
+      3.033684246740801
+    ]
+  },
+  {
+    "round": 89,
+    "acceptance": 0.1171875,
+    "critic_objective": 116.15057454604693,
+    "galerkin_residual": 0.014752890316779144,
+    "critic_coefficient_norm": 78.19990912211543,
+    "dirichlet_condition": 551.0034594915265,
+    "gradient_norm": 0.04310449394973071,
+    "reward_scale": 3654.1888509339965,
+    "proposal_scale": [
+      2.6266787129828373,
+      3.0375408985493886
+    ]
+  },
+  {
+    "round": 90,
+    "acceptance": 0.13671875,
+    "critic_objective": 347.94648080167474,
+    "galerkin_residual": 0.025598480518902986,
+    "critic_coefficient_norm": 132.21078181568126,
+    "dirichlet_condition": 194.94402595756037,
+    "gradient_norm": 0.0037648489494885177,
+    "reward_scale": 21282.096243402837,
+    "proposal_scale": [
+      2.625091000346623,
+      3.0409943847840273
+    ]
+  },
+  {
+    "round": 91,
+    "acceptance": 0.181640625,
+    "critic_objective": 13.267496963528346,
+    "galerkin_residual": 0.008659736916049963,
+    "critic_coefficient_norm": 18.598816777888988,
+    "dirichlet_condition": 714.5283841979895,
+    "gradient_norm": 0.05015280003191391,
+    "reward_scale": 210.4051711465462,
+    "proposal_scale": [
+      2.6220359631507115,
+      3.0431432263190326
+    ]
+  },
+  {
+    "round": 92,
+    "acceptance": 0.1328125,
+    "critic_objective": 6.876537205837383,
+    "galerkin_residual": 0.00990897390536344,
+    "critic_coefficient_norm": 12.133913995551472,
+    "dirichlet_condition": 414.81933984111197,
+    "gradient_norm": 0.034403282598304254,
+    "reward_scale": 247.23014274207424,
+    "proposal_scale": [
+      2.618819568487159,
+      3.044682199143133
+    ]
+  },
+  {
+    "round": 93,
+    "acceptance": 0.115234375,
+    "critic_objective": 3.9401092945209535,
+    "galerkin_residual": 0.015124715207485654,
+    "critic_coefficient_norm": 9.34332650218382,
+    "dirichlet_condition": 176.8943203309008,
+    "gradient_norm": 0.03331561616371285,
+    "reward_scale": 138.78647901024684,
+    "proposal_scale": [
+      2.6144321694188366,
+      3.0455585812222123
+    ]
+  },
+  {
+    "round": 94,
+    "acceptance": 0.1171875,
+    "critic_objective": 2.742257836044451,
+    "galerkin_residual": 0.02031601863762614,
+    "critic_coefficient_norm": 9.553900246025263,
+    "dirichlet_condition": 278.78843616446005,
+    "gradient_norm": 0.07248389353646663,
+    "reward_scale": 56.74318237466039,
+    "proposal_scale": [
+      2.6085870401636364,
+      3.0449915729123895
+    ]
+  },
+  {
+    "round": 95,
+    "acceptance": 0.15234375,
+    "critic_objective": 6.048478077961423,
+    "galerkin_residual": 0.01721850316189497,
+    "critic_coefficient_norm": 14.011493095697835,
+    "dirichlet_condition": 337.0638631401387,
+    "gradient_norm": 0.033068427502910294,
+    "reward_scale": 245.7557156257419,
+    "proposal_scale": [
+      2.6021606301959195,
+      3.044781678140246
+    ]
+  },
+  {
+    "round": 96,
+    "acceptance": 0.138671875,
+    "critic_objective": 4.489300522353943,
+    "galerkin_residual": 0.014531424318188877,
+    "critic_coefficient_norm": 10.298575820528061,
+    "dirichlet_condition": 284.51382778774234,
+    "gradient_norm": 0.025562412238798602,
+    "reward_scale": 203.56529766623277,
+    "proposal_scale": [
+      2.595380209445457,
+      3.0441299670031468
+    ]
+  },
+  {
+    "round": 97,
+    "acceptance": 0.1328125,
+    "critic_objective": 5.860799624787218,
+    "galerkin_residual": 0.01566109469703976,
+    "critic_coefficient_norm": 13.28470966805524,
+    "dirichlet_condition": 265.8813979826556,
+    "gradient_norm": 0.02951116005765741,
+    "reward_scale": 323.4437873807412,
+    "proposal_scale": [
+      2.589144002368548,
+      3.04368996923085
+    ]
+  },
+  {
+    "round": 98,
+    "acceptance": 0.107421875,
+    "critic_objective": 11.286198469332962,
+    "galerkin_residual": 0.012199798643540283,
+    "critic_coefficient_norm": 14.227262865885134,
+    "dirichlet_condition": 272.3327887952734,
+    "gradient_norm": 0.07637549878794368,
+    "reward_scale": 414.58086590781846,
+    "proposal_scale": [
+      2.5794904089825077,
+      3.0427086089028057
+    ]
+  },
+  {
+    "round": 99,
+    "acceptance": 0.125,
+    "critic_objective": 5.365847789979737,
+    "galerkin_residual": 0.016412451038522284,
+    "critic_coefficient_norm": 12.955484119968094,
+    "dirichlet_condition": 334.75518164499204,
+    "gradient_norm": 0.055415764507009566,
+    "reward_scale": 180.37383558397605,
+    "proposal_scale": [
+      2.5686497123608367,
+      3.0407523628090125
+    ]
+  },
+  {
+    "round": 100,
+    "acceptance": 0.125,
+    "critic_objective": 3.3992897144397776,
+    "galerkin_residual": 0.013444760400169642,
+    "critic_coefficient_norm": 7.5813400347670825,
+    "dirichlet_condition": 229.15096919689213,
+    "gradient_norm": 0.041863217380127764,
+    "reward_scale": 109.7045130775197,
+    "proposal_scale": [
+      2.557415173187724,
+      3.038261040249409
+    ]
+  },
+  {
+    "round": 101,
+    "acceptance": 0.126953125,
+    "critic_objective": 6.586822983729462,
+    "galerkin_residual": 0.015305899476860646,
+    "critic_coefficient_norm": 13.12416998277425,
+    "dirichlet_condition": 236.6380955937573,
+    "gradient_norm": 0.03255466116358566,
+    "reward_scale": 254.97169275409075,
+    "proposal_scale": [
+      2.5460953520153877,
+      3.0355095685467157
+    ]
+  },
+  {
+    "round": 102,
+    "acceptance": 0.140625,
+    "critic_objective": 99.29246744074862,
+    "galerkin_residual": 0.005897890472763014,
+    "critic_coefficient_norm": 37.87727291556168,
+    "dirichlet_condition": 736.2292514206773,
+    "gradient_norm": 0.03656116658658765,
+    "reward_scale": 2100.757900927304,
+    "proposal_scale": [
+      2.536211166378371,
+      3.0334226355611436
+    ]
+  },
+  {
+    "round": 103,
+    "acceptance": 0.142578125,
+    "critic_objective": 231.07749355422652,
+    "galerkin_residual": 0.013111815185140582,
+    "critic_coefficient_norm": 114.45676523544958,
+    "dirichlet_condition": 811.1798520948192,
+    "gradient_norm": 0.02234986669701194,
+    "reward_scale": 12097.263432814267,
+    "proposal_scale": [
+      2.527119623962245,
+      3.0317107892353867
+    ]
+  },
+  {
+    "round": 104,
+    "acceptance": 0.099609375,
+    "critic_objective": 168.127158114562,
+    "galerkin_residual": 0.006312911279343724,
+    "critic_coefficient_norm": 51.622888698806804,
+    "dirichlet_condition": 702.1677900886615,
+    "gradient_norm": 0.008830608266352262,
+    "reward_scale": 5732.686404788561,
+    "proposal_scale": [
+      2.518570216455933,
+      3.0300190337954853
+    ]
+  },
+  {
+    "round": 105,
+    "acceptance": 0.123046875,
+    "critic_objective": 41.397635896373416,
+    "galerkin_residual": 0.02257722572058651,
+    "critic_coefficient_norm": 38.675705160992514,
+    "dirichlet_condition": 217.55072943773308,
+    "gradient_norm": 0.012711065351082159,
+    "reward_scale": 2520.230948140726,
+    "proposal_scale": [
+      2.510893100835064,
+      3.0283253729693635
+    ]
+  },
+  {
+    "round": 106,
+    "acceptance": 0.142578125,
+    "critic_objective": 7.237641116329149,
+    "galerkin_residual": 0.009266346433235432,
+    "critic_coefficient_norm": 11.438731132627286,
+    "dirichlet_condition": 366.14008728212934,
+    "gradient_norm": 0.036249191385582295,
+    "reward_scale": 209.4764695164772,
+    "proposal_scale": [
+      2.5047875009370717,
+      3.0266015670298314
+    ]
+  },
+  {
+    "round": 107,
+    "acceptance": 0.13671875,
+    "critic_objective": 16.0786849348549,
+    "galerkin_residual": 0.013583977709958173,
+    "critic_coefficient_norm": 21.303052812054435,
+    "dirichlet_condition": 313.0700364289907,
+    "gradient_norm": 0.007870971028734335,
+    "reward_scale": 791.9565992999558,
+    "proposal_scale": [
+      2.4988919010532444,
+      3.025117615981122
+    ]
+  },
+  {
+    "round": 108,
+    "acceptance": 0.12890625,
+    "critic_objective": 25.521997458873862,
+    "galerkin_residual": 0.010745247651171817,
+    "critic_coefficient_norm": 25.9414180277125,
+    "dirichlet_condition": 484.05634133976895,
+    "gradient_norm": 0.1495845104626991,
+    "reward_scale": 911.6233238222385,
+    "proposal_scale": [
+      2.496683934130144,
+      3.0254917803887404
+    ]
+  },
+  {
+    "round": 109,
+    "acceptance": 0.15234375,
+    "critic_objective": 83.77593635921671,
+    "galerkin_residual": 0.023195047190682667,
+    "critic_coefficient_norm": 58.54038206615145,
+    "dirichlet_condition": 458.87590812904705,
+    "gradient_norm": 0.29113140664421877,
+    "reward_scale": 5486.714383539808,
+    "proposal_scale": [
+      2.5031745322556165,
+      3.0227791344428314
+    ]
+  },
+  {
+    "round": 110,
+    "acceptance": 0.140625,
+    "critic_objective": 9.728532398919036,
+    "galerkin_residual": 0.013364671148916357,
+    "critic_coefficient_norm": 15.531706470614047,
+    "dirichlet_condition": 255.1802007690132,
+    "gradient_norm": 0.0850418587944737,
+    "reward_scale": 478.58243469598034,
+    "proposal_scale": [
+      2.5098086998298355,
+      3.0213808848977237
+    ]
+  },
+  {
+    "round": 111,
+    "acceptance": 0.13671875,
+    "critic_objective": 7.7923973402269775,
+    "galerkin_residual": 0.008134439591576637,
+    "critic_coefficient_norm": 11.715486567012427,
+    "dirichlet_condition": 498.51861561723786,
+    "gradient_norm": 0.01579960315548656,
+    "reward_scale": 240.93485728129465,
+    "proposal_scale": [
+      2.515228195278295,
+      3.020012158141775
+    ]
+  },
+  {
+    "round": 112,
+    "acceptance": 0.140625,
+    "critic_objective": 27.855631794614627,
+    "galerkin_residual": 0.012243409875217137,
+    "critic_coefficient_norm": 27.405062976132992,
+    "dirichlet_condition": 346.1975439225971,
+    "gradient_norm": 0.041548646967512426,
+    "reward_scale": 1092.9225887208866,
+    "proposal_scale": [
+      2.520947317001547,
+      3.0185773670882448
+    ]
+  },
+  {
+    "round": 113,
+    "acceptance": 0.12890625,
+    "critic_objective": 10.38320356137815,
+    "galerkin_residual": 0.01671406192193085,
+    "critic_coefficient_norm": 22.832982303087682,
+    "dirichlet_condition": 494.3999844698183,
+    "gradient_norm": 0.046634928927265895,
+    "reward_scale": 263.81140406538003,
+    "proposal_scale": [
+      2.5239829431708913,
+      3.016643792897115
+    ]
+  },
+  {
+    "round": 114,
+    "acceptance": 0.119140625,
+    "critic_objective": 6.404744287896699,
+    "galerkin_residual": 0.029313599530222258,
+    "critic_coefficient_norm": 20.931456044635528,
+    "dirichlet_condition": 407.92573781300644,
+    "gradient_norm": 0.09014033656939847,
+    "reward_scale": 295.91453372201687,
+    "proposal_scale": [
+      2.5232413927342154,
+      3.013202793832628
+    ]
+  },
+  {
+    "round": 115,
+    "acceptance": 0.126953125,
+    "critic_objective": 5.334823314833441,
+    "galerkin_residual": 0.01429127758774169,
+    "critic_coefficient_norm": 13.807355543448816,
+    "dirichlet_condition": 387.88155092261593,
+    "gradient_norm": 0.008937742932530695,
+    "reward_scale": 395.62783529783667,
+    "proposal_scale": [
+      2.5222554199484257,
+      3.009919385871068
+    ]
+  },
+  {
+    "round": 116,
+    "acceptance": 0.119140625,
+    "critic_objective": 4.502275028936744,
+    "galerkin_residual": 0.018037567699741318,
+    "critic_coefficient_norm": 11.585890048592809,
+    "dirichlet_condition": 193.42233582990184,
+    "gradient_norm": 0.03388326595684351,
+    "reward_scale": 391.6446323155878,
+    "proposal_scale": [
+      2.52074233023256,
+      3.007118385452915
+    ]
+  },
+  {
+    "round": 117,
+    "acceptance": 0.126953125,
+    "critic_objective": 11.076012735962326,
+    "galerkin_residual": 0.007545775659434182,
+    "critic_coefficient_norm": 14.597514952940518,
+    "dirichlet_condition": 644.6170482238098,
+    "gradient_norm": 0.014308744874732613,
+    "reward_scale": 613.3332308018134,
+    "proposal_scale": [
+      2.519342922986753,
+      3.0044681658826393
+    ]
+  },
+  {
+    "round": 118,
+    "acceptance": 0.142578125,
+    "critic_objective": 15.426230254624414,
+    "galerkin_residual": 0.009124333972425847,
+    "critic_coefficient_norm": 18.18822908806738,
+    "dirichlet_condition": 529.1605447842798,
+    "gradient_norm": 0.025684948696856977,
+    "reward_scale": 424.43987882656563,
+    "proposal_scale": [
+      2.5171571289550565,
+      3.0015568880170065
+    ]
+  },
+  {
+    "round": 119,
+    "acceptance": 0.1015625,
+    "critic_objective": 6.316938976272068,
+    "galerkin_residual": 0.018167253488112635,
+    "critic_coefficient_norm": 17.36507452215102,
+    "dirichlet_condition": 413.5248107707814,
+    "gradient_norm": 0.0182471583689626,
+    "reward_scale": 441.993078445669,
+    "proposal_scale": [
+      2.514463388683754,
+      2.9985647518304455
+    ]
+  },
+  {
+    "round": 120,
+    "acceptance": 0.150390625,
+    "critic_objective": 4.64783625749808,
+    "galerkin_residual": 0.012404207706726825,
+    "critic_coefficient_norm": 11.334997885423693,
+    "dirichlet_condition": 422.5627757102574,
+    "gradient_norm": 0.025620439992261063,
+    "reward_scale": 253.88825586717152,
+    "proposal_scale": [
+      2.510926022466748,
+      2.9954166815855254
+    ]
+  },
+  {
+    "round": 121,
+    "acceptance": 0.13671875,
+    "critic_objective": 6.462519558186145,
+    "galerkin_residual": 0.021697320848989267,
+    "critic_coefficient_norm": 15.244569901589635,
+    "dirichlet_condition": 274.2537751588427,
+    "gradient_norm": 0.023765725363941143,
+    "reward_scale": 651.3012777437967,
+    "proposal_scale": [
+      2.5068946506649814,
+      2.9921822715306434
+    ]
+  },
+  {
+    "round": 122,
+    "acceptance": 0.10546875,
+    "critic_objective": 2.807072132966817,
+    "galerkin_residual": 0.01581838668661121,
+    "critic_coefficient_norm": 7.937109369737794,
+    "dirichlet_condition": 206.07590662687147,
+    "gradient_norm": 0.042216261245009566,
+    "reward_scale": 132.25731408891343,
+    "proposal_scale": [
+      2.5014059247951037,
+      2.9885735013709454
+    ]
+  },
+  {
+    "round": 123,
+    "acceptance": 0.12109375,
+    "critic_objective": 4.070183740126,
+    "galerkin_residual": 0.016150661281529404,
+    "critic_coefficient_norm": 12.921010819374434,
+    "dirichlet_condition": 369.85046785917143,
+    "gradient_norm": 0.03447110011042373,
+    "reward_scale": 146.10096224892845,
+    "proposal_scale": [
+      2.4947731253843783,
+      2.9848670732665052
+    ]
+  },
+  {
+    "round": 124,
+    "acceptance": 0.142578125,
+    "critic_objective": 121.49658961465352,
+    "galerkin_residual": 0.022588369420882957,
+    "critic_coefficient_norm": 83.51975029226443,
+    "dirichlet_condition": 623.6048417795312,
+    "gradient_norm": 0.06147047846514875,
+    "reward_scale": 6521.582374366338,
+    "proposal_scale": [
+      2.491490299404256,
+      2.9815297995394476
+    ]
+  },
+  {
+    "round": 125,
+    "acceptance": 0.125,
+    "critic_objective": 11.490424328661014,
+    "galerkin_residual": 0.016092799786577256,
+    "critic_coefficient_norm": 20.422103058174166,
+    "dirichlet_condition": 439.0074372410609,
+    "gradient_norm": 0.060124124311439014,
+    "reward_scale": 931.4292455593095,
+    "proposal_scale": [
+      2.486409610725876,
+      2.9780852740647923
+    ]
+  },
+  {
+    "round": 126,
+    "acceptance": 0.1484375,
+    "critic_objective": 6.893865837038659,
+    "galerkin_residual": 0.00980433851556524,
+    "critic_coefficient_norm": 12.619352759864352,
+    "dirichlet_condition": 474.93559982566137,
+    "gradient_norm": 0.03868474671168056,
+    "reward_scale": 195.35249790628973,
+    "proposal_scale": [
+      2.4797694782623636,
+      2.9746727101810584
+    ]
+  },
+  {
+    "round": 127,
+    "acceptance": 0.123046875,
+    "critic_objective": 6.391595447300878,
+    "galerkin_residual": 0.026060515899979507,
+    "critic_coefficient_norm": 18.63134791450529,
+    "dirichlet_condition": 309.41864381094166,
+    "gradient_norm": 0.02738485737226137,
+    "reward_scale": 966.2912154420455,
+    "proposal_scale": [
+      2.4726753376457937,
+      2.9710628637919134
+    ]
+  }
+]

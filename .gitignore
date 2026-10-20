@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+*.pyc
+results/smoke/
+# MCMC checkpoints and raw samples
+*.pt
+*.pth
+*.npz

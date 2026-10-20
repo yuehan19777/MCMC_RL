@@ -1,0 +1,87 @@
+Poisson Critic 与 MH Policy Gradient
+核心研究思想： 利用 Sherlock（Reversible Markov Chains）的渐进方差变分表示，自然导出类似 RL Differential Bellman Equation 的 Poisson Critic；再借助 Baxter & Bartlett（Infinite-Horizon Policy-Gradient Estimation）的参数化 Markov Kernel 梯度思想，结合 MH 接受—拒绝结构，推导直接优化采样效率的策略梯度估计器。
+1. 为什么选择渐进方差作为目标？
+标准 MH 的目标平稳分布不随 proposal 参数改变：
+$$\pi K_\theta=\pi,\qquad \forall\theta$$
+因此，若直接使用固定状态奖励 $$r(x)$$，长期平均奖励 $$\eta(\theta)=\pi(r)$$ 的梯度为零，不能指导 proposal 优化。
+但改变 $$q_\theta(y\mid x)$$ 会改变 $$K_\theta$$ 的时间相关结构，进而改变统计函数 $$f$$ 的渐进方差：
+ 
+$$\sigma_\theta^2(f)=\operatorname{Var}\pi(f)+2\sum_{k=1}^{\infty}\operatorname{Cov}_\theta(f(X_0),f(X_k))$$
+由于：$$\operatorname{ESS}\theta(f)=\frac{T\operatorname{Var}\pi(f)}{\sigma_\theta^2(f)}$$
+ 
+因此，在固定 $$f$$、采样步数和单位步成本下，最小化渐进方差等价于最大化渐进 ESS。相较于 Acceptance Rate 或 ESJD，渐进方差直接对应最终统计估计效率。
+2. Poisson Equation 与 RL Differential Bellman Equation 的一致性
+令 $$g=f-\pi(f)$$，定义 Poisson solution：
+$$(I-K_\theta)h_\theta=g$$ 
+ $$h_\theta = (I-K_\theta)^{-1}g$$  
+$$h_\theta = g+K_{\theta}g+ K_{\theta}^{2}g+K_{\theta}^{3}g+\dots$$,
+所以 $$h_\theta$$类似于长期的渐进误差，结构相当于Value function
+等价于：$$h_\theta(x)=f(x)-\pi(f)+\mathbb E_{K_\theta}[h_\theta(X_{t+1})\mid X_t=x]$$
+这与 Average-Reward RL 的 Differential Bellman Equation：$$V^\pi(s)=r(s)-\eta^\pi+\mathbb E[V^\pi(S_{t+1})\mid S_t=s]$$
+具有相同的数学结构。
+因此可以自然引入 Poisson Critic： $$h_\phi(x)$$ 是一个神经网络价值函数，用于逼近真实 $$h_\theta(x)$$，刻画当前状态对未来统计函数累计偏差的影响。Critic 不是生成模型，也不是预测 acceptance rate，而是学习 MH Kernel 的长期时间相关结构。
+Poisson Equation 还可以表示渐进方差：$$\sigma_\theta^2(f)=2\langle g,h_\theta\rangle_\pi-|g|_\pi^2$$ （把第一项放入 inner product）
+由此，将无限时间相关性的优化问题转化为对 Poisson solution 的求解。
+3. 变分原理如何自然导出 Critic 训练目标？
+Sherlock 的关键理论是：$$\langle g,(I-K_\theta)^{-1}g\rangle_\pi=\sup_h\left[2\langle g,h\rangle_\pi-\mathcal E_\theta(h,h)\right]$$
+其中 Dirichlet Form 为：$$\mathcal E_\theta(h,h)=\frac12\mathbb E_{\pi q_\theta}\left[\alpha_\theta(X,Y)(h(Y)-h(X))^2\right]$$
+因此，定义 Critic 目标：
+$$\mathcal C_\theta(\phi)=2\mathbb E_\pi[g(X)h_\phi(X)]-\frac12\mathbb E_{\pi q_\theta}[\alpha_\theta(X,Y)(\Delta h_\phi)^2]$$
+训练时固定 Actor 参数 $$\theta$$，最大化 $$\mathcal C_\theta(\phi)$$。
+其函数空间的最优条件恰好是 Poisson Equation：$$(I-K_\theta)h_\theta=g$$ 为一阶最优条件，$$g=f-\pi(f)$$
+所以 Critic 无需真实 $$h_\theta$$ 的监督标签，可以直接使用状态、proposal 和 MH acceptance probability 进行变分训练。
+进一步得到统一目标：
+$$\min_\theta\max_\phi\mathcal F(\theta,\phi)$$
+其中：$$\mathcal F(\theta,\phi)=2\mathcal C_\theta(\phi)-|g|_\pi^2$$.理论上，内层最大化求解 Poisson Critic，外层最小化降低渐进方差。
+4. Exact Gradient：为什么可以不计算 Critic 对参数的导数？
+设真实 Poisson solution 为 $$h_\theta$$。根据渐进方差的变分表示及 Envelope Theorem：
+ 
+$$\nabla_\theta\sigma_\theta^2(f)=\left.\partial_\theta\mathcal F(\theta,h)\right|_{h=h\theta}$$
+ 
+由于 $$\pi$$ 与 $$g$$ 不依赖 $$\theta$$，得到：$$\nabla_\theta\sigma_\theta^2(f)=-2\left.\partial_\theta\mathcal E_\theta(h,h)\right|{h=h\theta}$$
+ 重要理解： 虽然 $$h_\theta$$ 本身随 Kernel 改变，但由于它是内层变分问题的最优解，梯度推导中不需要显式计算 $$\nabla_\theta h_\theta$$。Actor 更新时固定当前 Critic，理论依据正是 Envelope Theorem，而不是任意的工程技巧。
+利用 MH 详细平衡，定义对称接受流：$$w_\theta(x,y)=\pi(x)q_\theta(y\mid x)\alpha_\theta(x,y)=w_\theta(y,x)$$
+可进一步得到渐进方差的精确梯度恒等式：
+$$\nabla_\theta\sigma_\theta^2(f)=-\iint\nabla_\theta w_\theta(x,y)[h_\theta(y)-h_\theta(x)]^2dxdy$$
+该式仍然是 Exact Gradient，尚未引入神经网络近似或有限样本估计。
+5. 与 Parameter-Dependent Transition Policy Gradient 的联系
+将 MH 表示为随机决策过程：
+- State：$$X_t=x$$。
+- Action / Proposal Policy：$$Y_t\sim q_\theta(\cdot\mid x)$$。
+- Acceptance：$$B_t\sim\operatorname{Bernoulli}(\alpha_\theta(x,Y_t))$$。
+- Next State：$$X_{t+1}=B_tY_t+(1-B_t)X_t$$（连续向量状态时的表示）。
+由于 $$\alpha_\theta$$ 包含正反向 proposal density，接受—拒绝环境本身依赖策略参数。因此完整随机机制的 score 不仅包含 policy score，还包含 transition score：
+$$\begin{aligned}
+s_\theta(x,y,b)={}&\nabla_\theta\log q_\theta(y\mid x)\
+&+b\nabla_\theta\log\alpha_\theta(x,y)\
+&+(1-b)\nabla_\theta\log[1-\alpha_\theta(x,y)]
+\end{aligned}$$
+对当前精确 Critic 固定，定义局部训练信号：
+$$R_h(x,y,b)=b[h(y)-h(x)]^2$$
+由变分原理可知，在 $$h=h_\theta$$ 时：
+$$\nabla_\theta\sigma_\theta^2(f)=-\nabla_\theta\mathbb E_\theta[R_{h_\theta}]$$
+其中右侧对 $$\theta$$ 求导时固定当前 $$h_\theta$$。
+再使用第一篇论文中的 Likelihood Ratio / Score Function 思想：$$\nabla_\theta\mathbb E_\theta[R_h]=\mathbb E_\theta[R_hs_\theta]$$
+由于拒绝事件中 $$R_h=0$$，并对 Bernoulli 接受变量作 Rao–Blackwellization，得到：
+$$\nabla_\theta\sigma_\theta^2(f)=-\mathbb E_{\pi q_\theta}\left[\alpha_\theta(X,Y)s_\theta^{MH}(X,Y)(\Delta h_\theta)^2\right]$$
+其中：$$s_\theta^{MH}(x,y)=\nabla_\theta\log[q_\theta(y\mid x)\alpha_\theta(x,y)]$$
+令 MH ratio 为 $$R_\theta(x,y)$$，则在可微区域$$s_\theta^{MH}(x,y)=
+\begin{cases}
+\nabla_\theta\log q_\theta(y\mid x),&R_\theta>1\
+\nabla_\theta\log q_\theta(x\mid y),&R_\theta<1
+\end{cases}$$
+最有价值的理论联系： 从 Sherlock 的渐进方差变分原理出发，和从参数依赖转移的完整 Score Function 出发，最终得到同一个 MH-specific gradient。这不是将 RL 算法强行添加到 MCMC，而是通过统计目标自然导出策略优化形式。
+与 Baxter & Bartlett 原论文也需区分：它主要估计参数化 Markov Chain 的长期平均奖励梯度；这里借鉴其随机转移 score 思想，但利用可逆变分结构，构造的是渐进方差梯度，并非直接套用原始 GPOMDP Eligibility Trace。
+6. Practical Gradient Estimator 与训练难点
+实际使用 $$h_\phi$$ 近似真实 Critic，构造：
+$$\widehat G_{\theta,\phi,T}=-\frac1T\sum_{t=1}^{T}\alpha_\theta(X_t,Y_t)s_\theta^{MH}(X_t,Y_t)[h_\phi(Y_t)-h_\phi(X_t)]^2$$
+然后进行 Actor 更新：$$\theta\leftarrow\theta-\eta_\theta\widehat G_{\theta,\phi,T}$$
+必须区分：
+- Exact Gradient： 使用真实 $$h_\theta$$ 和总体期望得到的理论梯度。
+- Critic Approximation Error： 使用 $$h_\phi\neq h_\theta$$ 造成的梯度偏差。
+- Monte Carlo Error： 有限相关样本导致的随机估计误差。
+- Adaptive Sampling Error： 在线更新参数使样本未处于当前固定 Kernel 的稳态所带来的误差。
+一个重要恒等式是：$$\mathcal C_\theta(h_\theta)-\mathcal C_\theta(h_\phi)=\mathcal E_\theta(h_\phi-h_\theta,h_\phi-h_\theta)$$
+即 Critic 的变分最优性差距恰好等于其近似误差的 Dirichlet Energy，可以进一步用于建立梯度估计偏差界。
+需要重点关注的困难： 当原始 MH Kernel 混合很慢、Spectral Gap 很小时，Poisson solution 可能很大，Critic 训练变得病态；同时样本难以覆盖多个模式，导致 Critic 与梯度估计失真。这形成了“希望通过 Critic 改善采样效率，但 Critic 又依赖高质量采样数据”的困难。
+因此，直接优化渐进方差具有更准确的统计目标，但通常比优化 ESJD 等简单代理目标更难训练。

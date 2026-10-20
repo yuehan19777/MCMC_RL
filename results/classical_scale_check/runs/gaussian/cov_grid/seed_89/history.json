@@ -1,0 +1,42 @@
+[
+  {
+    "scale": 0.25,
+    "training_esjd": 0.04887270003396065,
+    "acceptance": 0.8421630859375
+  },
+  {
+    "scale": 0.4,
+    "training_esjd": 0.10974837548938748,
+    "acceptance": 0.7747802734375
+  },
+  {
+    "scale": 0.65,
+    "training_esjd": 0.20858658832615723,
+    "acceptance": 0.6307373046875
+  },
+  {
+    "scale": 1.0,
+    "training_esjd": 0.32556615017619905,
+    "acceptance": 0.4913330078125
+  },
+  {
+    "scale": 1.6,
+    "training_esjd": 0.38898624853565633,
+    "acceptance": 0.3101806640625
+  },
+  {
+    "scale": 2.5,
+    "training_esjd": 0.3550017871713562,
+    "acceptance": 0.1715087890625
+  },
+  {
+    "scale": 4.0,
+    "training_esjd": 0.18217437161455452,
+    "acceptance": 0.078369140625
+  },
+  {
+    "scale": 6.5,
+    "training_esjd": 0.09027972873710406,
+    "acceptance": 0.0323486328125
+  }
+]

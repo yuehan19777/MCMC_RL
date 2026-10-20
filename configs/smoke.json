@@ -1,0 +1,20 @@
+{
+  "tasks": ["gaussian", "banana", "mixture"],
+  "methods": ["rwm", "am", "mala", "esjd", "poisson"],
+  "seeds": [17],
+  "train_chains": 8,
+  "pilot_steps": 64,
+  "rounds": 8,
+  "steps_per_round": 8,
+  "critic_steps": 2,
+  "critic_width": 12,
+  "critic_features": 4,
+  "critic_ridge": 0.001,
+  "actor_width": 16,
+  "actor_lr": 0.012,
+  "critic_lr": 0.001,
+  "eval_chains": 4,
+  "eval_steps": 400,
+  "stress_steps": 200,
+  "threads": 1
+}

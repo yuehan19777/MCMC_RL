@@ -1,0 +1,50 @@
+{
+  "config": {
+    "tasks": [
+      "gaussian",
+      "banana",
+      "mixture"
+    ],
+    "methods": [
+      "esjd",
+      "poisson"
+    ],
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "train_chains": 16,
+    "pilot_steps": 256,
+    "rounds": 128,
+    "steps_per_round": 32,
+    "critic_steps": 3,
+    "critic_width": 16,
+    "critic_features": 8,
+    "critic_ridge": 0.003,
+    "actor_width": 16,
+    "actor_lr": 0.008,
+    "critic_lr": 0.001,
+    "eval_chains": 8,
+    "eval_steps": 5000,
+    "stress_steps": 2500,
+    "threads": 1
+  },
+  "fingerprint": "215b5f4366424c1f21d7926705a00890d1299756ef543991a9ad891a6208825c",
+  "source_sha256": "62d68dc892f82d7c1103faab4cb97d55e15430b5d98d31c40a26d70874d42e8f",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\16209\\anaconda3\\envs\\pytor\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.5.1",
+  "numpy": "2.0.1",
+  "scipy": "1.16.3",
+  "device": "cpu",
+  "dtype": "float64",
+  "statistics": [
+    "x0",
+    "x1",
+    "x0_squared",
+    "right_half"
+  ],
+  "protocol": "stationary held-out evaluation; frozen kernel; no oracle training"
+}

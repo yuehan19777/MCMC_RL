@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "unique_runs": 54,
+  "metrics_rows": 216,
+  "stationary_evaluation_transitions": 2160000,
+  "verified_source_snapshots": [
+    "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\pilot_v2\\source_snapshot",
+    "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\pilot_v1\\source_snapshot",
+    "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\refined_learned\\source_snapshot",
+    "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\classical_scale_check\\source_snapshot"
+  ],
+  "checks": [
+    "sample shapes and finite values",
+    "statistics recalculated from saved states",
+    "true moments and ASV units",
+    "density call and transition budgets",
+    "checkpoint restoration and finite parameters",
+    "unique task/method/seed tuples",
+    "source SHA256 snapshots"
+  ]
+}

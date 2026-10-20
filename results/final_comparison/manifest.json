@@ -1,0 +1,42 @@
+{
+  "main_study": "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\pilot_v2",
+  "classical_scale_check": "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\classical_scale_check",
+  "initial_study": "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\pilot_v1",
+  "corrected_learned_study": "C:\\Users\\16209\\Documents\\ChatGPT\\Poisson-critic-actor-MCMC\\results\\refined_learned",
+  "config": {
+    "tasks": [
+      "gaussian",
+      "banana",
+      "mixture"
+    ],
+    "methods": [
+      "rwm",
+      "am",
+      "mala",
+      "cov_grid",
+      "esjd",
+      "poisson"
+    ],
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "train_chains": 16,
+    "pilot_steps": 256,
+    "rounds": 128,
+    "steps_per_round": 32,
+    "critic_steps": 3,
+    "critic_width": 16,
+    "critic_features": 8,
+    "critic_ridge": 0.003,
+    "actor_width": 16,
+    "actor_lr": 0.008,
+    "critic_lr": 0.001,
+    "eval_chains": 8,
+    "eval_steps": 5000,
+    "stress_steps": 2500,
+    "threads": 1
+  },
+  "sample_files_are_linked_not_duplicated": true
+}

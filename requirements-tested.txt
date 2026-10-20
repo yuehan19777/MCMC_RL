@@ -1,0 +1,7 @@
+# Versions used for the delivered CPU pilot, Python 3.12.7 / Windows.
+# pyproject.toml declares broader supported version ranges.
+torch==2.5.1
+numpy==2.0.1
+scipy==1.16.3
+matplotlib==3.10.0
+pytest==9.1.1

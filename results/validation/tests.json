@@ -1,0 +1,7 @@
+{
+  "command": "C:\\Users\\16209\\anaconda3\\envs\\pytor\\python.exe -m pytest -q",
+  "result": "14 passed",
+  "exit_code": 0,
+  "elapsed_seconds": 5.45,
+  "scope": "Final source, including the corrected paired-chain split"
+}
